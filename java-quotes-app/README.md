@@ -36,13 +36,19 @@ This project is a simple Java-based HTTP server that serves random motivational 
 ### Running with Docker
 1. Build the Docker image:
    ```sh
-   docker build -t motivational-quotes-api .
+   docker build -t java-quotes:latest
    ```
-2. Run the container:
+
+2. To check images
+   ```sh
+   docker images
+   ```
+3. Run the container:
    ```sh
    docker run -p 8000:8000 motivational-quotes-api
    ```
-3. Access the API at `http://localhost:8000/`.
+4. Access the API at `<public-ip>:8000/`.
+![Screenshot (1019)](https://github.com/user-attachments/assets/f1c98af1-d632-4686-866d-389ca2489744)
 
 ## File Structure
 ```
@@ -62,7 +68,6 @@ To customize the quotes, edit `quotes.txt` and restart the application. Each quo
 ## License
 This project is licensed under the MIT License.
 
-## Author
-[TrainWithShubham](https://github.com/LondheShubham153)
+
 
 

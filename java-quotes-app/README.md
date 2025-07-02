@@ -36,7 +36,7 @@ This project is a simple Java-based HTTP server that serves random motivational 
 ### Running with Docker
 1. Build the Docker image:
    ```sh
-   docker build -t java-quotes:latest
+   docker build -t java-quotes:latest .
    ```
 
 2. To check images
